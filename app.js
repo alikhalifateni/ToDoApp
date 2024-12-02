@@ -61,8 +61,8 @@ function updataTaskList() {
           <p>${task.title}</p>
         </div>
         <div class="icons">
-          <img src="img/edit.png"onclick='editTask(${index})'>
-          <img src="img/bin.png" onclick='deleteTask(${index})'>
+          <img src="edit.png"onclick='editTask(${index})'>
+          <img src="bin.png" onclick='deleteTask(${index})'>
         </div>
     </div>
     `
